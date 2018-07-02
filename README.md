@@ -17,6 +17,14 @@ It has 10 different "modes" that can be enabled including:
 - **Mode 9**: Play random notes over the internal speaker (non-MIDI mode)
 - **Mode 10**: Mix RGB colors with the onboard LEDs using incoming MIDI messages
 
+## How to Upload
+
+- Download the [Arduino IDE](http://www.arduino.cc/)
+- If Adafruit Circuit Playground is not listed among the installed boards find and install it via  **Tools > Board > Boards Manager**
+- Go to **Sketch > Include Library > Manage Libraries** and install  the [MIDIUSB library](https://www.arduino.cc/en/Reference/MIDIUSB).
+- Select the correct port for your device and the appropriate board (Either *Adafruit Circuit Playground* or *Adafruit Circuit Playground Express*)
+- Open the sketch in this repository and upload it to your device
+- Have fun hacking away!
 
 ## How to Use
 
