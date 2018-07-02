@@ -26,6 +26,10 @@ It has 10 different "modes" that can be enabled including:
 - Open the sketch in this repository and upload it to your device
 - Have fun hacking away!
 
+Use this CodePen to test if the device is now being recognized as MIDI controller:
+
+[codepen.io/georgemandis/pen/XqYNNN](https://codepen.io/georgemandis/pen/XqYNNN)
+
 ## How to Use
 
 - To change or view the current mode your Circuit Playground is in toggle the slide switch so that one or more NeoPixel LEDs lights up and stays on.
