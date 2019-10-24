@@ -52,7 +52,7 @@ int pitch_octave(byte pitch) {
 }
 
 void tapCallback() {
-  if (mode == 6 {
+  if (mode == 6) {
   Serial.println(CircuitPlayground.getAccelTap());
     tapDetected = true;
     randomRed = random(0, 255);
