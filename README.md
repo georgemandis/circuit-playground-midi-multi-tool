@@ -7,7 +7,7 @@ This sketch will turn your your [Circuit Playground](https://amzn.to/2tMr8Iw) (o
 It has 10 different "modes" that can be enabled including:
 
 - **Mode 1**: Converts capactive inputs to MIDI messages
-- **Mode 2**: Converts the onbaord light sensor to MIDI messages
+- **Mode 2**: Converts the onboard light sensor to MIDI messages
 - **Mode 3**: Converts the onboard sound sensor to MIDI messages
 - **Mode 4**: Relays the temperature (in celsius) via a MIDI message
 - **Mode 5**: Sends a cascade of random MIDI messages with variable speed
