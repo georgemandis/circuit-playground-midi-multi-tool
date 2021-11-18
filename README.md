@@ -2,17 +2,17 @@
 
 ## Version 1.0.0
 
-This sketch will turn your your [Circuit Playground](https://amzn.to/2tMr8Iw) (or [Circuit Playground Express](https://amzn.to/2lLNpBQ)) into a somewhat elaborate MIDI controller. You can upload this to your device using the [Arduino IDE](http://www.arduino.cc/). It was written for my [hands-on MIDI workshops](http://midi.mand.is/) to allow attendees to experiment with the [WebMIDI API](https://www.w3.org/TR/webmidi/). The multitidue of fun, built-in sensors make it an ideal tool for exploring non-musical applications for MIDI.
+This sketch will turn your your [Circuit Playground](https://amzn.to/2tMr8Iw) (or [Circuit Playground Express](https://amzn.to/2lLNpBQ)) into a somewhat elaborate MIDI controller. You can upload this to your device using the [Arduino IDE](http://www.arduino.cc/). It was written for my [hands-on MIDI workshops](http://midi.mand.is/) to allow attendees to experiment with the [WebMIDI API](https://www.w3.org/TR/webmidi/). The multitude of fun, built-in sensors make it an ideal tool for exploring non-musical applications for MIDI.
 
 It has 10 different "modes" that can be enabled including:
 
-- **Mode 1**: Converts capactive inputs to MIDI messages
+- **Mode 1**: Converts capacitive inputs to MIDI messages
 - **Mode 2**: Converts the onboard light sensor to MIDI messages
 - **Mode 3**: Converts the onboard sound sensor to MIDI messages
 - **Mode 4**: Relays the temperature (in celsius) via a MIDI message
 - **Mode 5**: Sends a cascade of random MIDI messages with variable speed
 - **Mode 6**: Converts the accelerometer X/Y/Z parameters to MIDI messages
-- **Mode 7**: Converts the accelerometer "tap" detetion to a MIDI message
+- **Mode 7**: Converts the accelerometer "tap" detection to a MIDI message
 - **Mode 8**: Plays incoming MIDI notes over the internal speaker
 - **Mode 9**: Play random notes over the internal speaker (non-MIDI mode)
 - **Mode 10**: Mix RGB colors with the onboard LEDs using incoming MIDI messages
